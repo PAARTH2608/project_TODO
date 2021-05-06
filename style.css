@@ -183,3 +183,43 @@ select{
     width:10rem;
     cursor: pointer;
 }
+@media screen and (max-width:958px){
+    #item li{
+        padding-right: 20px;
+    }
+    #item .icon i{
+        padding-right: 10px;
+    }
+    .nav{
+        padding: 1rem 2.5rem;
+    }
+}
+@media screen and (max-width:773px){
+    header{
+        font-size: 1.5rem;
+        position:relative;
+        bottom:15vh;
+    }
+    header h1{
+        padding-top: 0px;
+    }
+    div.add{
+        position:relative;
+        bottom: 10vh;
+    }
+    div.add input{
+        margin: 0;
+        font-size:1.5rem;
+    }
+}
+@media screen and (max-width:663px){
+    #item .icon i{
+        padding-right: 4px;
+    }
+    #item li{
+        padding-right: 10px;
+    }
+    .nav{
+        padding: 1rem 0.5rem;
+    }
+}
